@@ -1,0 +1,5 @@
+This project procedurally generates a maze using the randomized prim's algorithm. 
+
+The steps of the algorithm are show in real time with the black walls being the spanning tree edges and the white walls being the walls of the actual maze. The dimensions of the maze are dictated by the size variable, and the speed of the generation animation is controlled by the offset variable. 
+
+At the end of the algorithm, the spanning tree walls are deleted and the maze walls are closed in and optimized, leaving a clean, randomly generated, white-walled maze. 
